@@ -68,7 +68,7 @@ public class Main {
         intArray.setElement(0, true);
 
         System.out.println("количество элементов, установленных в true: " + intArray.countTrueElements());
-        System.out.println(booleanArray.toString());
+        System.out.println(intArray.toString());
 
 
     }
