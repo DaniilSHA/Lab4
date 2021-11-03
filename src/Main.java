@@ -35,40 +35,40 @@ public class Main {
         System.out.println("количество элементов, установленных в true: " + booleanArray.countTrueElements());
         System.out.println(booleanArray.toString());
 
-        System.out.println("Работа int массива".toUpperCase());
+        System.out.println("Работа byte массива".toUpperCase());
 
-        IntArray intArray = new IntArray();
-        System.out.println(intArray.toString());
+        ByteArray byteArray = new ByteArray();
+        System.out.println(byteArray.toString());
 
-        System.out.println("проверка элемента с заданным индексом 5 " + intArray.isElement(5));
-        System.out.println("проверка элемента с заданным индексом 17 " + intArray.isElement(17));
-        System.out.println("проверка элемента с заданным индексом 25 " + intArray.isElement(25));
-        System.out.println("проверка элемента с заданным индексом 30 " + intArray.isElement(30));
+        System.out.println("проверка элемента с заданным индексом 5 " + byteArray.isElement(5));
+        System.out.println("проверка элемента с заданным индексом 17 " + byteArray.isElement(17));
+        System.out.println("проверка элемента с заданным индексом 25 " + byteArray.isElement(25));
+        System.out.println("проверка элемента с заданным индексом 30 " + byteArray.isElement(30));
 
         System.out.println("установка (в true) элемента с заданным индексом 5 ");
-        intArray.setElementTrue(5);
-        System.out.println("проверка элемента с заданным индексом 5 " + intArray.isElement(5));
+        byteArray.setElementTrue(5);
+        System.out.println("проверка элемента с заданным индексом 5 " + byteArray.isElement(5));
 
         System.out.println("сброс (в false) элемента с заданным индексом 5 ");
-        intArray.setElementFalse(5);
-        System.out.println("проверка элемента с заданным индексом 5 " + intArray.isElement(5));
+        byteArray.setElementFalse(5);
+        System.out.println("проверка элемента с заданным индексом 5 " + byteArray.isElement(5));
 
         System.out.println("установка элемента с заданным индексом 10 заданным логическим значением true");
-        intArray.setElement(10, true);
-        System.out.println("проверка элемента с заданным индексом 10 " + intArray.isElement(10));
+        byteArray.setElement(10, true);
+        System.out.println("проверка элемента с заданным индексом 10 " + byteArray.isElement(10));
 
         System.out.println("инвертирование элемента с заданным индексом 15");
-        intArray.invertingElement(15);
-        System.out.println("проверка элемента с заданным индексом 15 " + intArray.isElement(10));
+        byteArray.invertingElement(15);
+        System.out.println("проверка элемента с заданным индексом 15 " + byteArray.isElement(10));
 
-        intArray.setElement(19, true);
-        intArray.setElement(565, true);
-        intArray.setElement(701, true);
-        intArray.setElement(1023, true);
-        intArray.setElement(0, true);
+        byteArray.setElement(19, true);
+        byteArray.setElement(565, true);
+        byteArray.setElement(701, true);
+        byteArray.setElement(1023, true);
+        byteArray.setElement(0, true);
 
-        System.out.println("количество элементов, установленных в true: " + intArray.countTrueElements());
-        System.out.println(intArray.toString());
+        System.out.println("количество элементов, установленных в true: " + byteArray.countTrueElements());
+        System.out.println(byteArray.toString());
 
 
     }
